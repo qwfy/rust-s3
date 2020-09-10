@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["MESSAGE",""]],"fn":[["main",""]],"struct":[["Storage",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AssumeRoleWithWebIdentityResponse",""],["AssumeRoleWithWebIdentityResult",""],["AssumedRoleUser",""],["AwsCredsError",""],["Credentials","AWS access credentials: access key, secret key, and optional token."],["ResponseMetadata",""],["StsResponseCredentials",""]],"type":[["Result",""]]});

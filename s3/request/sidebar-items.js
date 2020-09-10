@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Request",""]],"type":[["Headers","Collection of HTTP headers sent to S3 service, in key/value format."],["Query","Collection of HTTP query parameters sent to S3 service, in key/value format."]]});

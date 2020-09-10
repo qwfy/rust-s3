@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Region","AWS S3 region identifier, passing in custom values is also possible, in that case it is up to you to pass a valid endpoint, otherwise boom will happen :)"]],"struct":[["AwsRegionError",""]],"type":[["Result",""]]});
