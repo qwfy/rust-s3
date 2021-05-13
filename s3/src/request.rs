@@ -21,7 +21,7 @@ use crate::{Result, S3Error};
 
 // use once_cell::sync::Lazy;
 use tokio::io::AsyncWriteExt;
-use tokio::stream::StreamExt;
+use tokio_stream::StreamExt;
 
 /// Collection of HTTP headers sent to S3 service, in key/value format.
 pub type Headers = HashMap<String, String>;

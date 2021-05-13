@@ -1,6 +1,6 @@
 [package]
 name = "rust-s3"
-version = "0.26.3"
+version = "0.26.3-tokio-1"
 authors = ["Drazen Urch"]
 description = "Rust library for working with Amazon S3 and compatible object storage APIs"
 repository = "https://github.com/durch/rust-s3"
@@ -23,7 +23,7 @@ base64 = "0.13.0"
 chrono = "0.4"
 hex = "0.4"
 hmac = "0.9"
-reqwest = {version = "0.10", default-features = false, features = ["json", "stream"]}
+reqwest = {version = "0.11.3", default-features = false, features = ["json", "stream"]}
 serde_derive = "1"
 serde = "1"
 serde-xml-rs = "0.4"
@@ -31,7 +31,8 @@ sha2 = "0.9"
 md5 = "0.7"
 url = "2"
 futures = "0.3"
-tokio = {version="0.2", features=["macros", "io-util", "stream"]}
+tokio = {version="1", features=["macros", "io-util", "rt-multi-thread"]}
+tokio-stream = "0.1.5"
 simpl = "0.1.0"
 aws-region = "0.22"
 aws-creds = { version="0.24.1", default-features = false }
@@ -51,5 +52,5 @@ native-tls = ["reqwest/native-tls", "aws-creds/native-tls"]
 rustls-tls = ["reqwest/rustls-tls", "aws-creds/rustls-tls"]
 
 [dev-dependencies]
-tokio = {version="0.2", features=["fs"]}
+tokio = {version="1", features=["fs"]}
 uuid = { version="0.8", features=["v4"]}
